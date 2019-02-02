@@ -24,7 +24,7 @@ Running the Tests:
  
  Logs and Report:
    1. Report of Test exectuion and logs are logged in the same file "bbctesting\target\reports\ExtentReports.html"
-   2. Please open the html in chrome browser from the location give complete test execution report
+   2. Please open the html in chrome browser from the above location to see the complete test execution report
    3. clicking on the last icon in the report gives the TestRunner Logs.
     
 
