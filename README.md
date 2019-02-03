@@ -12,7 +12,7 @@ Running the Tests:
     
   Option:2
     1. open the project in IDE
-    2. Go to "bbctesting\src\main\java\com\bedifrent\RunTest.java"
+    2. Go to "BeDifrentDemo\src\test\java\com\bedifrent\RunTest.java"
     3. Right click on the file and select "Run"
   
   Scenarios Covered:
@@ -23,12 +23,12 @@ Running the Tests:
 
 
  Configuration:
-  Currently is set to run on Chrome Browser in "bbctesting\src\main\resources\features\1_TestSetup.feature"
+  Currently is set to run on Chrome Browser in "BeDifrentDemo\src\test\resources\features\1_TestSetup.feature"
   if you wish to run on firefox or IE please enable that value from the example table and run. Please disable other options
  
  
  Logs and Report:
-   1. Report of Test exectuion and logs are logged in the same file "bbctesting\target\reports\ExtentReports.html"
+   1. Report of Test exectuion and logs are logged in the same file "BeDifrentDemo\target\reports\ExtentReports.html"
    2. Please open the html in chrome browser from the above location to see the complete test execution report
    3. clicking on the last icon in the report gives the TestRunner Logs.
     
