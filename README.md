@@ -5,10 +5,15 @@ It is a maven Project once you cloned the project please open that in Intelij or
 
 Running the Tests:
 
-  1. open the project in IDE
-  2. go to "bbctesting\src\main\java\com\bedifrent\RunTest.java"
-  3. Right click on the file and select "Run"
-  
+  Option:1
+    1. Clone the Project 
+    2. Navigate to Project folder in command line
+    3. Type "mvn test"
+    
+  Option:2
+    1. open the project in IDE
+    2. Go to "bbctesting\src\main\java\com\bedifrent\RunTest.java"
+    3. Right click on the file and select "Run"
   
   Scenarios Covered:
   
