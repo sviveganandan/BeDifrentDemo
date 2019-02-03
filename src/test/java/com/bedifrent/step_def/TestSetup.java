@@ -33,13 +33,13 @@ public class TestSetup {
     @Given("^User provides the browser as \"([^\"]*)\"$")
     public void browserSetup(String browser) {
         if (browser.equals("firefox")) {
-            System.setProperty("webdriver.firefox.marionette","src\\main\\resources\\driver\\geckodriver.exe");
+            System.setProperty("webdriver.firefox.marionette","src\\test\\resources\\driver\\geckodriver.exe");
             driver = new FirefoxDriver();
         } else if (browser.equals("chrome")) {
-            System.setProperty("webdriver.chrome.driver","src\\main\\resources\\driver\\chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver","src\\test\\resources\\driver\\chromedriver.exe");
             driver = new ChromeDriver();
         }else if (browser.equals("IE")) {
-            System.setProperty("webdriver.ie.driver","src\\main\\resources\\driver\\MicrosoftWebDriver.exe");
+            System.setProperty("webdriver.ie.driver","src\\test\\resources\\driver\\MicrosoftWebDriver.exe");
             driver = new InternetExplorerDriver();
         }
         driver.manage().window().maximize();

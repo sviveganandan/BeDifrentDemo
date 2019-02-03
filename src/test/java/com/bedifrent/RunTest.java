@@ -13,7 +13,7 @@ import java.util.Map;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = {"src/main/resources/features/"},
+        features = {"src/test/resources/features/"},
         glue = {"com.bedifrent.step_def"},
         plugin= {"com.cucumber.listener.ExtentCucumberFormatter"}
 //        tags = { "@TestSetup, @MultipleWindow"}
