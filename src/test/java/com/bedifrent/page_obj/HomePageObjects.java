@@ -194,5 +194,17 @@ public class HomePageObjects {
         }
     }
 
+    public static webElement lnk_new(){
+  WebElement element = null;
+        try {
+            element = driver.findElement(By.xpath("//div[@id='orb-panel-more']//a[contains(text(),'CBeebies')]"));
+            ExtentCucumberFormatter.setTestRunnerOutput("CBeebies link is displayed from objects");
+            return element;
+        } catch (Exception e) {
+            ExtentCucumberFormatter.setTestRunnerOutput("CBeebies link is not displayed");
+            throw e;
+        }
+    }
+
 
 }
